@@ -1,5 +1,5 @@
 //
-// Created by User on 06/02/2025.
+// Created by fkeyz on 06/02/2025.
 //
 
 #ifndef IS_KEYWORD_H
@@ -12,7 +12,7 @@ bool operator %(Derived& obj, Base*) {
 
 // Use a unique name for the macro that doesn't conflict with variable names
 #define is_operator %  // Macro to represent the operator `%`
-#define s(Type)((Type*)nullptr)  // Helper for type checking
+#define s(Type)((Type*)nullptr)
 
 // Define the `is` macro to act as shorthand for `is_operator s`
 #define is is_operator s
