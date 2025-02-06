@@ -1,13 +1,13 @@
 # cpp_is_keyword
 Adds the `is` keyword to C++, similarly to languages like C#, Swift and GDScript. <br>
-To use, just include `is_keyword.h`.
+To use, just include `is_keyword.hpp`.
 
 **DISCLAIMER: This was made for fun in about an hour just to see how close I can get to the exact syntax. It uses some weird macros and is not thorougly tested. Please use it with caution.**
 
 **Example use case:**
 ```cpp
 #include <iostream>
-#include "is_keyword.h"
+#include "is_keyword.hpp"
 
 using namespace std;
 
