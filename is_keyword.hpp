@@ -2,8 +2,8 @@
 // Created by fkeyz on 06/02/2025.
 //
 
-#ifndef IS_KEYWORD_H
-#define IS_KEYWORD_H
+#ifndef IS_KEYWORD_HPP
+#define IS_KEYWORD_HPP
 
 template <typename Derived, typename Base>
 bool operator %(Derived& obj, Base*) {
@@ -17,4 +17,4 @@ bool operator %(Derived& obj, Base*) {
 // Define the `is` macro to act as shorthand for `is_operator s`
 #define is is_operator s
 
-#endif //IS_KEYWORD_H
+#endif // IS_KEYWORD_HPP
